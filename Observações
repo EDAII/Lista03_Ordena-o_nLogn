@@ -1,0 +1,8 @@
+Para pegar os tempos : 
+1)Compile o programa : g++ merge.cpp -o executavel -std=c++11
+2)Crie um arquivo de entrada.txt com o número de elementos. Exemplo : 10
+3)Rode o seguinte comando no terminal : 
+	time ./executavel < entrada.txt
+O executavel, é o nome do executável do seu programa
+4)Pegue o tempo "real"
+5)Para pegar tempos diferentes, só mudar o número de elementos no arquivo de entrada
